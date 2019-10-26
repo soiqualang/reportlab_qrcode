@@ -4,6 +4,8 @@ reportlab_qrcode
 ```py
 virtualenv reportlab
 source reportlab/bin/activate
+
+pip install reportlab
 ```
 
 ## References

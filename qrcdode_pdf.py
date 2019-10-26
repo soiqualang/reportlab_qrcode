@@ -32,18 +32,19 @@ def createBarCodes():
     d = Drawing(20*mm, 20*mm)
     d.add(qr_code)
 
-    data= [[d, d, d],
-       ['00', '01', '02'],
-       ['10', '11', '12']]
+    data= [['d', 'd', 'd'],
+           ['d', 'd', 'd']]
 
-    # 3 hang*chieu rong hang, 3 cot * chieu dai 1 cot
-    t=Table(data,3*[36.6*mm], 3*[2.5*mm])
+    # 3 cot*chieu rong hang, 3 dong * chieu dai 1 cot
+    t=Table(data,3*[36.6*mm], 2*[17*mm])
 
     t.setStyle(TableStyle([
                        ('ALIGN',(0,0),(-1,-1),'CENTER'),
                        ('VALIGN',(0,0),(-1,-1),'MIDDLE'),
                        ('INNERGRID', (0,0), (-1,-1), 0.25, colors.black),
                        ('BOX', (0,0), (-1,-1), 0.25, colors.black),
+                       ('TOPPADDING',(0,0),(-1,-1),0*mm),
+                       ('BOTTOMPADDING',(0,0),(-1,-1),0*mm)
                        ]))
 
     elements.append(t)

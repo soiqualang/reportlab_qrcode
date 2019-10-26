@@ -45,3 +45,4 @@ http://www.blog.pythonlibrary.org/2013/03/25/reportlab-how-to-create-barcodes-in
 
 http://www.blog.pythonlibrary.org/2010/09/21/reportlab-tables-creating-tables-in-pdfs-with-python/
 
+https://stackoverflow.com/questions/54836889/reportlab-align-valign-table-to-the-bottom-of-a-frame/54860079#54860079

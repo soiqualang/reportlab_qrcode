@@ -1,6 +1,10 @@
 # reportlab_qrcode
 reportlab_qrcode
 
+```py
+virtualenv reportlab
+source reportlab/bin/activate
+```
 
 ## References
 
